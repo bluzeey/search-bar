@@ -1,9 +1,11 @@
 import './App.css';
-
+import SearchBar from './components/SearchBar';
+import SearchButton from './components/Button';
 function App() {
   return (
     <div className="App">
-      Hello World!
+      <SearchBar/>
+      <SearchButton text="Search"/>
     </div>
   );
 }
